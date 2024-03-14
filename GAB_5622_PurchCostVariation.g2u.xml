@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SyntaxEdit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Pages>
+    <DefaultPage>
+      <Header />
+      <Footer />
+    </DefaultPage>
+  </Pages>
+  <DisplayStrings />
+  <Selection>
+    <SelectionRect>
+      <Location>
+        <X>0</X>
+        <Y>210</Y>
+      </Location>
+      <Size>
+        <Width>24</Width>
+        <Height>2</Height>
+      </Size>
+      <X>0</X>
+      <Y>210</Y>
+      <Width>24</Width>
+      <Height>2</Height>
+    </SelectionRect>
+    <Options>UseColors OverwriteBlocks SelectLineOnTripleClick CopyLineWhenEmpty SelectWordOnCtrlClick</Options>
+  </Selection>
+  <Gutter>
+    <Options>PaintLineNumbers PaintBookMarks PaintLineModificators</Options>
+  </Gutter>
+  <Margin>
+    <Visible>false</Visible>
+  </Margin>
+  <LineStyles />
+  <LineSeparator />
+  <Printing>
+    <Footer />
+    <Header />
+  </Printing>
+  <WhiteSpace />
+  <TextSource>
+    <Position>
+      <X>0</X>
+      <Y>210</Y>
+    </Position>
+    <Lexer>
+      <Scheme>
+        <Author>Quantum Whale, LLC.</Author>
+        <Copyright>Copyright (c) 2004 - 2014 Quantum Whale LLC.</Copyright>
+        <FileType>gas</FileType>
+        <Version>1.5</Version>
+        <Styles>
+          <Style>
+            <Name>idents</Name>
+            <ForeColor>ControlText</ForeColor>
+          </Style>
+          <Style>
+            <Name>numbers</Name>
+            <ForeColor>ControlText</ForeColor>
+          </Style>
+          <Style>
+            <Name>reswords</Name>
+            <ForeColor>Blue</ForeColor>
+          </Style>
+          <Style>
+            <Name>comments</Name>
+            <ForeColor>Green</ForeColor>
+            <PlainText>true</PlainText>
+          </Style>
+          <Style>
+            <Name>xmlcomments</Name>
+            <ForeColor>Gray</ForeColor>
+          </Style>
+          <Style>
+            <Name>symbols</Name>
+            <ForeColor>WindowText</ForeColor>
+          </Style>
+          <Style>
+            <Name>whitespace</Name>
+            <ForeColor>WindowText</ForeColor>
+          </Style>
+          <Style>
+            <Name>strings</Name>
+            <ForeColor>Maroon</ForeColor>
+            <PlainText>true</PlainText>
+          </Style>
+          <Style>
+            <Name>directives</Name>
+            <ForeColor>Blue</ForeColor>
+          </Style>
+          <Style>
+            <Name>htmlparams</Name>
+            <ForeColor>Red</ForeColor>
+          </Style>
+          <Style>
+            <Name>syntax errors</Name>
+            <ForeColor>Red</ForeColor>
+          </Style>
+          <Style>
+            <Name>codes nippets</Name>
+            <ForeColor>Black</ForeColor>
+            <BackColor>255:180:228:180</BackColor>
+          </Style>
+          <Style>
+            <Name>GabReservedWords</Name>
+            <ForeColor>Blue</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabTokenWithBrackets</Name>
+            <ForeColor>Gray</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabFunctionIntrinsicDebug</Name>
+            <ForeColor>White</ForeColor>
+            <BackColor>Red</BackColor>
+            <FontStyle>Bold</FontStyle>
+            <PlainText>true</PlainText>
+          </Style>
+          <Style>
+            <Name>GabVariable</Name>
+            <ForeColor>Teal</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabVariableSystemDefined</Name>
+            <ForeColor>Teal</ForeColor>
+            <FontStyle>Bold Italic</FontStyle>
+          </Style>
+          <Style>
+            <Name>GabGui</Name>
+            <ForeColor>OrangeRed</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabProgramSubStartEnd</Name>
+            <ForeColor>Black</ForeColor>
+            <BackColor>LightGray</BackColor>
+            <FontStyle>Bold</FontStyle>
+            <PlainText>true</PlainText>
+          </Style>
+        </Styles>
+      </Scheme>
+    </Lexer>
+    <TextStrings>
+      <Lines>
+        <string>Program.Sub.ScreenSU.Start</string>
+        <string>Gui.Form..Create</string>
+        <string>Gui.Form..Size(11880,4410)</string>
+        <string>Gui.Form..MinX(0)</string>
+        <string>Gui.Form..MinY(0)</string>
+        <string>Gui.Form..Position(0,0)</string>
+        <string>Gui.Form..BackColor(-2147483633)</string>
+        <string>Gui.Form..MousePointer(0)</string>
+        <string>Gui.Form..Event(UnLoad,Form_UnLoad)</string>
+        <string>Gui.Form..Sizeable(False)</string>
+        <string>Gui.Form..Caption("Compare Costs")</string>
+        <string>Gui.Form.GsGridControl1.Create(GsGridControl)</string>
+        <string>Gui.Form.GsGridControl1.Size(11460,3015)</string>
+        <string>Gui.Form.GsGridControl1.Position(105,720)</string>
+        <string>Gui.Form.GsGridControl1.TabStop(False)</string>
+        <string>Gui.Form.dtp1.Create(DatePicker)</string>
+        <string>Gui.Form.dtp1.Size(1935,285)</string>
+        <string>Gui.Form.dtp1.Position(3750,240)</string>
+        <string>Gui.Form.lbl1.Create(Label,"_",True,225,300,0,5820,225,True,0,"Arial",8,-2147483633,0)</string>
+        <string>Gui.Form.dtp2.Create(DatePicker)</string>
+        <string>Gui.Form.dtp2.Size(1935,285)</string>
+        <string>Gui.Form.dtp2.Position(6135,240)</string>
+        <string>Gui.Form.cmd1.Create(Button)</string>
+        <string>Gui.Form.cmd1.Size(855,375)</string>
+        <string>Gui.Form.cmd1.Position(8280,195)</string>
+        <string>Gui.Form.cmd1.Caption("Refresh")</string>
+        <string>Gui.Form.cmd1.Event(Click,cmd1_Click)</string>
+        <string>Program.Sub.ScreenSU.End</string>
+        <string />
+        <string>Program.Sub.Preflight.Start</string>
+        <string>'Open connection</string>
+        <string>F.ODBC.Connection!con.OpenConnection(V.Ambient.PDSN, V.Ambient.PUser, V.Ambient.PPass)</string>
+        <string />
+        <string>Program.Sub.Preflight.End</string>
+        <string />
+        <string>Program.Sub.Main.Start</string>
+        <string>	V.Local.sIconAddress.Declare(string)</string>
+        <string>	F.Intrinsic.String.Build("{0}\ART\gss2.ico", V.Caller.GlobalDir, V.Local.sIconAddress)</string>
+        <string>	gui.Form..Icon(V.Local.sIconAddress)</string>
+        <string>	</string>
+        <string>	gui.Form..Show</string>
+        <string>	V.Global.bNotBusy.Declare(boolean)</string>
+        <string>	V.Global.bNotBusy.Set(True)</string>
+        <string>Program.Sub.Main.End</string>
+        <string />
+        <string>Program.Sub.ClearAndCreateTable.Start</string>
+        <string>	F.Intrinsic.Control.If(V.DataTable.dtMain.Exists)</string>
+        <string>		F.Data.DataTable.Close("dtMain")</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string>	</string>
+        <string>	F.Data.DataTable.Create("dtMain", True)</string>
+        <string>	F.Data.DataTable.AddColumn("dtMain", "Part Number", "string")</string>
+        <string>	F.Data.DataTable.AddColumn("dtMain", "Loc", "string")</string>
+        <string>	F.Data.DataTable.AddColumn("dtMain", "Description", "string")</string>
+        <string>	F.Data.DataTable.AddColumn("dtMain", "# of Receipts", "long")</string>
+        <string>	F.Data.DataTable.AddColumn("dtMain", "Qty Received", "float")</string>
+        <string>	F.Data.DataTable.AddColumn("dtMain", "Highest Cost", "float")</string>
+        <string>	F.Data.DataTable.AddColumn("dtMain", "Lowest Cost", "float")</string>
+        <string>	F.Data.DataTable.AddColumn("dtMain", "% Difference", "string")</string>
+        <string>	</string>
+        <string>Program.Sub.ClearAndCreateTable.End</string>
+        <string />
+        <string>Program.Sub.cmd1_Click.Start</string>
+        <string>	'Click Refresh</string>
+        <string>	F.Intrinsic.Control.If(V.Global.bNotBusy)</string>
+        <string>		V.Global.bNotBusy.Set(False)</string>
+        <string>		</string>
+        <string>		'Clear and build table</string>
+        <string>		F.Intrinsic.Control.CallSub(ClearAndCreateTable)</string>
+        <string>		</string>
+        <string>		'Store Valid Parts in V.Global.sValidParts</string>
+        <string>		F.Intrinsic.Control.CallSub(FindAndAddValidParts)</string>
+        <string>	</string>
+        <string>		F.Intrinsic.Control.CallSub(FormatGV)</string>
+        <string>		</string>
+        <string>		V.Global.bNotBusy.Set(True)</string>
+        <string>	</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string>	</string>
+        <string>Program.Sub.cmd1_Click.End</string>
+        <string />
+        <string>Program.Sub.FindAndAddValidParts.Start</string>
+        <string>	V.Local.sQuery.Declare(string)</string>
+        <string>	</string>
+        <string>	'Reformat Dates</string>
+        <string>	V.Local.sStart.Declare(string)</string>
+        <string>	V.Local.sEnd.Declare(string)</string>
+        <string>	f.Intrinsic.String.Format(V.Screen.Form!dtp1.Value, "yyyy-mm-dd", V.Local.sStart)</string>
+        <string>	F.Intrinsic.String.Format(V.Screen.Form!dtp2.Value, "yyyy-mm-dd", V.Local.sEnd)</string>
+        <string>	</string>
+        <string>	F.Intrinsic.String.Build("Select PART from V_PO_HISTORY where DATE_RECEIVED &gt;= '{0}' and DATE_RECEIVED &lt;= '{1}' and QTY_RECEIVED &gt; 0", V.Local.sStart, V.Local.sEnd, V.Local.sQuery)</string>
+        <string>	F.ODBC.Connection!con.OpenRecordsetRO("rstValidity", V.Local.sQuery)</string>
+        <string>	</string>
+        <string>	V.Local.sPassedParts.Declare(string)</string>
+        <string>	F.Intrinsic.String.Split(V.Local.sPassedParts, "*!*", V.Local.sPassedParts)</string>
+        <string>	V.Global.sPart.Declare(string)</string>
+        <string>	V.Local.i.Declare(long)</string>
+        <string>	V.Local.j.Declare(long)</string>
+        <string>	V.Local.bIsValid.Declare(boolean)</string>
+        <string>	V.Local.sUsedParts.Declare(string)</string>
+        <string>	F.Intrinsic.String.Split(V.Local.sUsedParts, "*!*", V.Local.sUsedParts)</string>
+        <string>	V.Local.bHasNotBeen.Declare(boolean)</string>
+        <string>	F.Intrinsic.Control.DoUntil(V.ODBC.con!rstValidity.EOF)</string>
+        <string>		V.Local.bIsValid.Set(False)</string>
+        <string>		F.ODBC.con!rstValidity.Record2String(V.Global.sPart)</string>
+        <string>		F.Intrinsic.Control.For(V.Local.i, 0, V.Local.sPassedParts.UBound, 1)</string>
+        <string>			F.Intrinsic.Control.If(V.Global.sPart.Trim, =, V.Local.sPassedParts(V.Local.i).Trim)</string>
+        <string>				V.Local.bIsValid.Set(True)</string>
+        <string>			F.Intrinsic.Control.EndIf</string>
+        <string>		F.Intrinsic.Control.Next(V.Local.i)</string>
+        <string>		F.Intrinsic.Control.If(V.Local.bIsValid)</string>
+        <string>			V.Local.bHasNotBeen.Set(True)	</string>
+        <string>			F.Intrinsic.Control.For(V.Local.j,0,V.Local.sUsedParts.UBound,1)</string>
+        <string>				F.Intrinsic.Control.If(V.Global.sPart.Trim, =, V.Local.sUsedParts(V.Local.j).Trim)</string>
+        <string>					V.Local.bHasNotBeen.Set(False)</string>
+        <string>				F.Intrinsic.Control.EndIf</string>
+        <string>			F.Intrinsic.Control.Next(V.Local.j)</string>
+        <string>			F.Intrinsic.Control.If(V.Local.bHasNotBeen)</string>
+        <string>				F.Intrinsic.Control.CallSub(addvalidpart)</string>
+        <string>				F.Intrinsic.String.Concat(V.Local.sUsedParts, "*!*", V.Global.sPart, V.Local.sUsedParts)</string>
+        <string>				F.Intrinsic.String.Split(V.Local.sUsedParts, "*!*", V.Local.sUsedParts)</string>
+        <string>			F.Intrinsic.Control.EndIf</string>
+        <string>		F.Intrinsic.Control.Else</string>
+        <string>				F.Intrinsic.String.Concat(V.Local.sPassedParts, "*!*", V.Global.sPart, V.Local.sPassedParts)</string>
+        <string>				F.Intrinsic.String.Split(V.Local.sPassedParts, "*!*", V.Local.sPassedParts)</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string>		F.ODBC.con!rstValidity.MoveNext</string>
+        <string>	F.Intrinsic.Control.Loop</string>
+        <string>	</string>
+        <string>	F.ODBC.con!rstValidity.Close</string>
+        <string>	</string>
+        <string>Program.Sub.FindAndAddValidParts.End</string>
+        <string />
+        <string>Program.Sub.AddValidPart.Start</string>
+        <string>	'Open recordset</string>
+        <string>	V.Local.sQuery.Declare(string)</string>
+        <string>	F.Intrinsic.String.Build("Select LOCATION, DESCRIPTION, QTY_RECEIVED, DATE_RECEIVED, COST from V_PO_HISTORY where Part = '{0}'", V.Global.sPart, V.Local.sQuery)</string>
+        <string>	F.ODBC.Connection!con.OpenRecordsetRo("rst", V.Local.sQuery)</string>
+        <string />
+        <string>	V.Local.sDetails.Declare(string)</string>
+        <string>	V.Local.fHighCost.Declare(float)</string>
+        <string>	V.Local.fLowCost.Declare(float)</string>
+        <string>	V.Local.fTemp.Declare(float)</string>
+        <string>	V.Local.iQtyReceived.Declare(long)</string>
+        <string>	V.Local.iCountOfReceipts.Declare(long)</string>
+        <string>	V.Local.fTotalReceived.Declare(float)</string>
+        <string>	V.Local.sLocation.Declare(string)</string>
+        <string>	V.Local.fDifference.Declare(float)</string>
+        <string>	V.Local.sDifference.Declare(string)</string>
+        <string>	V.Local.sDescription.Declare(string)</string>
+        <string>	</string>
+        <string>	F.Intrinsic.Control.DoUntil(V.ODBC.con!rst.EOF)</string>
+        <string>		F.ODBC.con!rst.Record2String(V.Local.sDetails)</string>
+        <string>		F.Intrinsic.String.Split(V.Local.sDetails, "*!*", V.Local.sDetails)</string>
+        <string>		</string>
+        <string>		F.Intrinsic.Math.ConvertToFloat(V.Local.sDetails(2), V.Local.iQtyReceived)</string>
+        <string>		F.Intrinsic.Control.If(V.Local.iQtyReceived, &gt;, 0)</string>
+        <string>			</string>
+        <string>			F.Intrinsic.Math.ConvertToFloat(V.Local.sDetails(4), V.Local.fTemp)</string>
+        <string>			</string>
+        <string>			F.Intrinsic.Control.If(V.Local.fTemp, &gt;, V.Local.fhighcost)</string>
+        <string>				V.Local.fhighcost.Set(V.Local.fTemp)</string>
+        <string>			F.Intrinsic.Control.EndIf</string>
+        <string>			</string>
+        <string>			F.Intrinsic.Control.If(V.Local.fLowCost, =, 0)</string>
+        <string>				V.Local.fLowCost.Set(V.Local.fTemp)</string>
+        <string>			F.Intrinsic.Control.ElseIf(V.Local.fTemp, &lt;, V.Local.fLowCost)</string>
+        <string>				V.Local.fLowCost.Set(V.Local.fTemp)</string>
+        <string>			F.Intrinsic.Control.EndIf</string>
+        <string>			</string>
+        <string>			F.Intrinsic.Math.Add(v.Local.iCountOfReceipts, 1, V.Local.iCountOfReceipts)</string>
+        <string>			</string>
+        <string>			F.Intrinsic.Math.Add(V.Local.iQtyReceived, V.Local.fTotalReceived, V.Local.fTotalReceived)</string>
+        <string>		</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string>		</string>
+        <string>		F.ODBC.con!rst.MoveNext</string>
+        <string>	F.Intrinsic.Control.Loop</string>
+        <string>	</string>
+        <string>	V.Local.sLocation.Set(V.Local.sDetails(0))</string>
+        <string>	V.Local.sDescription.Set(V.Local.sDetails(1))</string>
+        <string>	</string>
+        <string>	F.Intrinsic.Math.Sub(V.Local.fhighcost, V.Local.fLowCost, V.Local.fdifference)</string>
+        <string>	F.Intrinsic.Math.Div(V.Local.fdifference, V.Local.fhighcost, V.Local.fdifference)</string>
+        <string>	F.Intrinsic.Math.Mult(V.Local.fdifference, 100, V.Local.fdifference)</string>
+        <string>	F.Intrinsic.Math.Round(V.Local.fDifference, 2, V.Local.fDifference)</string>
+        <string>	F.Intrinsic.String.ConvertToString(V.Local.fdifference, V.Local.sDifference)</string>
+        <string>	F.Intrinsic.String.Concat(V.Local.sdifference, "%", V.Local.sDifference)</string>
+        <string>	</string>
+        <string>	F.Data.DataTable.AddRow("dtMain", "Part Number", V.Global.sPart, "Loc", V.Local.sLocation, "Description", V.Local.sDescription, "# of Receipts", V.Local.iCountOfReceipts, "Qty Received", V.Local.fTotalReceived, "Highest Cost", V.Local.fHighCost, "Lowest Cost", V.Local.fLowCost, "% Difference", V.Local.sDifference)</string>
+        <string />
+        <string>	F.ODBC.con!rst.Close</string>
+        <string>	</string>
+        <string>Program.Sub.AddValidPart.End</string>
+        <string />
+        <string>Program.Sub.FormatGV.Start</string>
+        <string>	gui.Form.GsGridControl1.AddGridviewFromDatatable("gvMain", "dtMain")</string>
+        <string>	</string>
+        <string>	gui.Form.GsGridControl1.SetColumnProperty("gvMain", "Description", "Width", "200")</string>
+        <string>	gui.Form.GsGridControl1.SetColumnProperty("gvMain", "Part Number", "Width", "100")</string>
+        <string>	</string>
+        <string>	gui.Form.GsGridControl1.MainView("gvMain")</string>
+        <string />
+        <string>Program.Sub.FormatGV.End</string>
+        <string />
+        <string>Program.Sub.Form_UnLoad.Start</string>
+        <string>F.Intrinsic.Control.End</string>
+        <string />
+        <string>Program.Sub.Form_UnLoad.End</string>
+        <string />
+        <string>Program.Sub.Comments.Start</string>
+        <string>${$0$}$$}$$}$12:00:00 AM$}$False</string>
+        <string>Program.Sub.Comments.End</string>
+      </Lines>
+    </TextStrings>
+  </TextSource>
+  <Scrolling>
+    <WindowOriginY>131</WindowOriginY>
+  </Scrolling>
+  <Outlining>
+    <AllowOutlining>true</AllowOutlining>
+    <ImageSize>8</ImageSize>
+    <Ranges>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>0</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>27</Y>
+        </EndPoint>
+        <Text>Program.Sub.ScreenSU</Text>
+        <DisplayText>Program.Sub.ScreenSU</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>29</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>33</Y>
+        </EndPoint>
+        <Text>Program.Sub.Preflight</Text>
+        <DisplayText>Program.Sub.Preflight</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>35</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>43</Y>
+        </EndPoint>
+        <Text>Program.Sub.Main</Text>
+        <DisplayText>Program.Sub.Main</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>45</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>60</Y>
+        </EndPoint>
+        <Text>Program.Sub.ClearAndCreateTable</Text>
+        <DisplayText>Program.Sub.ClearAndCreateTable</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>62</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>79</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmd1_Click</Text>
+        <DisplayText>Program.Sub.cmd1_Click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>81</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>131</Y>
+        </EndPoint>
+        <Text>Program.Sub.FindAndAddValidParts</Text>
+        <DisplayText>Program.Sub.FindAndAddValidParts</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>133</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>193</Y>
+        </EndPoint>
+        <Text>Program.Sub.AddValidPart</Text>
+        <DisplayText>Program.Sub.AddValidPart</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>195</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>203</Y>
+        </EndPoint>
+        <Text>Program.Sub.FormatGV</Text>
+        <DisplayText>Program.Sub.FormatGV</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>205</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>208</Y>
+        </EndPoint>
+        <Text>Program.Sub.Form_UnLoad</Text>
+        <DisplayText>Program.Sub.Form_UnLoad</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>210</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>212</Y>
+        </EndPoint>
+        <Text>Program.Sub.Comments</Text>
+        <DisplayText>Program.Sub.Comments</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+    </Ranges>
+  </Outlining>
+  <HyperText />
+  <Spelling />
+  <Braces />
+</SyntaxEdit>
